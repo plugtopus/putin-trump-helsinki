@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "icons": {
+      "128": "icon.png"
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_desc__",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "short_name": "__MSG_shortname__",
+   "permissions": [ "activeTab", "https://ajax.googleapis.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.07.17.2"
+}
